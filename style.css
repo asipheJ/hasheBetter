@@ -134,12 +134,12 @@ section .title::after {
 }
 
 .navbar .logo a span {
-    color: var(--black);
+    color: rgb(226, 148, 3);
     transition: all 0.3s ease;
 }
 
 .navbar.sticky .logo a span {
-    color: var(--black);
+    color: rgb(226, 148, 3);
 }
 
 .navbar .menu li {
@@ -520,6 +520,7 @@ section .title::after {
 .certificates .card a:hover {
     background: none;
     color: var(--primary-color);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2)
 }
 
 /* Responsive Design for Certificates Section */
